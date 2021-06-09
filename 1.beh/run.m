@@ -14,13 +14,13 @@ close all
 
 %% 1. Input file
 % rawdata (beh matlab files)
-indir = 'C:\Users\SN\Google Drive\UG2_fMRI\1.beh\000.dataOrg';
+indir = 'C:\Users\fuq01\Documents\social_controllability_fMRI\0.data';
 infile = 'beh02_clean.mat';
 load(fullfile(indir, infile));
 
 
 %% 2. Output file
-outdir = 'C:\Users\SN\Google Drive\UG2_fMRI\1.beh\001.UG2beh_ICvNC';
+outdir = 'C:\Users\fuq01\Documents\social_controllability_fMRI\0.data';
 outfile = 'results.mat';
 
 
